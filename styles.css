@@ -4,6 +4,7 @@ body {
     max-width: 70em;
     margin: 0 auto;
     font-family: "Helvetica", sans-serif;
+    text-align: center;
 
 }
 
@@ -11,10 +12,10 @@ body {
     padding: 0 0 2em 0;
 }
 
-#chord-display-div {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-template-rows: auto;
+.scale-degree {
+    display: inline-block;
+    min-width: 8em;
+    padding: 2em 0;
 }
 
 .chord-numeral {
