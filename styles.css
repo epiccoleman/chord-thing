@@ -1,5 +1,14 @@
 body {
-    background: #c0c0c0
+    background: #f2ece8;
+    color: #555;
+    max-width: 70em;
+    margin: 0 auto;
+    font-family: "Helvetica", sans-serif;
+
+}
+
+#key-select-div {
+    padding: 0 0 2em 0;
 }
 
 #chord-display-div {
@@ -8,16 +17,13 @@ body {
     grid-template-rows: auto;
 }
 
-.scale-degree {
-
-}
-
 .chord-numeral {
     font-size: 1.8em;
+    font-family: "Georgia", serif;
     text-align: center;
 }
 
 .chord-name {
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
 }
